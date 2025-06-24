@@ -33,9 +33,9 @@
 		<param name="virtual_memory_page_size" value="4096"/>
 		<!-- address width determines the tag_width in Cache, LSQ and buffers in cache controller 
 			default value is machine_bits, if not set --> 
-		<stat name="total_cycles" value="479066064"/>
+		<stat name="total_cycles" value="479065636"/>
 		<stat name="idle_cycles" value="0"/>
-		<stat name="busy_cycles" value="479066064.0"/>
+		<stat name="busy_cycles" value="479065636.0"/>
 			<!--This page size(B) is complete different from the page size in Main memo section. this page size is the size of 
 			virtual memory from OS/Archi perspective; the page size in Main memo section is the actual physical line in a DRAM bank  -->
 		<!-- *********************** cores ******************* -->
@@ -140,9 +140,9 @@
 			<stat name="pipeline_duty_cycle" value="1"/><!--<=1, runtime_ipc/peak_ipc; averaged for all cores if homogeneous -->
 			<!-- the following cycle stats are used for heterogeneous cores only, 
 				please ignore them if homogeneous cores -->
-			<stat name="total_cycles" value="479066064"/>
+			<stat name="total_cycles" value="479065636"/>
 		    <stat name="idle_cycles" value="0"/>
-		    <stat name="busy_cycles" value="479066064.0"/>
+		    <stat name="busy_cycles" value="479065636.0"/>
 			<!-- instruction buffer stats -->
 			<!-- ROB stats, both RS and Phy based OoOs have ROB
 			performance simulator should capture the difference on accesses,

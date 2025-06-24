@@ -16,7 +16,7 @@ Processor:
   Peak Dynamic = 0.159709 W
   Subthreshold Leakage = 0.0462382 W
   Gate Leakage = 0.00116288 W
-  Runtime Dynamic = 0.00205122 W
+  Runtime Dynamic = 0.00205123 W
 
   Total Cores: 1 cores 
   Device Type= ITRS low operating power device type
@@ -32,6 +32,6 @@ Processor:
     Peak Dynamic = 0.0224692 W
     Subthreshold Leakage = 0.0067522 W
     Gate Leakage = 0.000258538 W
-    Runtime Dynamic = 0.000309741 W
+    Runtime Dynamic = 0.000309743 W
 
 *****************************************************************************************

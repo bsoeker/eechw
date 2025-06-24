@@ -32,6 +32,6 @@ Processor:
     Peak Dynamic = 0.0224692 W
     Subthreshold Leakage = 0.0067522 W
     Gate Leakage = 0.000258538 W
-    Runtime Dynamic = 0.000302794 W
+    Runtime Dynamic = 0.000302797 W
 
 *****************************************************************************************

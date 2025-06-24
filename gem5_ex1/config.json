@@ -533,7 +533,7 @@
                         "name": "workload",
                         "path": "system.cpu.workload",
                         "cmd": [
-                            "./crc32_benchmarks/benchmark_matmul_O3_thumb"
+                            "./crc32_benchmarks/benchmark_crc32_O3_thumb"
                         ],
                         "cwd": "/root/eechw",
                         "drivers": [],
@@ -542,7 +542,7 @@
                         "errout": "cerr",
                         "euid": 100,
                         "eventq_index": 0,
-                        "executable": "./crc32_benchmarks/benchmark_matmul_O3_thumb",
+                        "executable": "./crc32_benchmarks/benchmark_crc32_O3_thumb",
                         "gid": 0,
                         "input": "cin",
                         "kvmInSE": false,
