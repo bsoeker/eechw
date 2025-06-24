@@ -1,0 +1,26 @@
+\documentclass{article}
+\usepackage[margin=1in]{geometry}
+
+\begin{document}
+
+\section*{Benchmark Summary}
+
+\begin{tabular}{|l|c|c|c|}
+\hline
+Executable & Optimization Level & Execution Time & Dynamic Power \\
+\hline
+ARM32 & -O0 & 1.227976 sec & 0.00166281 W \\
+ARM32 & -O1 & 0.241104 sec & 0.00187636 W \\
+ARM32 & -O2 & 0.238345 sec & 0.00187943 W \\
+ARM32 & -O3 & 0.145411 sec & 0.00205123 W \\
+THUMB & -O0 & 1.283060 sec & 0.00166057 W \\
+THUMB & -O1 & 0.287923 sec & 0.00183315 W \\
+THUMB & -O2 & 0.284928 sec & 0.00183549 W \\
+THUMB & -O3 & 0.148747 sec & 0.00204134 W \\
+\hline
+\end{tabular}
+
+\textbf{Table 1:} McPAT report summerized.
+
+\end{document}
+
